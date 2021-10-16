@@ -22,6 +22,9 @@ public class TestView implements Serializable {
     @PostConstruct  
     public void init() {
         string = "Welcome to PrimeFaces!!!";
+        integer = 1;
+        decimal = BigDecimal.valueOf(25);
+
     }
 
 }
