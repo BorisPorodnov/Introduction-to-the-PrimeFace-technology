@@ -24,7 +24,6 @@ public class TestView implements Serializable {
         string = "Welcome to PrimeFaces!!!";
         integer = 1;
         decimal = BigDecimal.valueOf(25);
-
     }
 
 }
